@@ -1,3 +1,12 @@
-<h2 id="title">Super Rental</h2>
-
-{{outlet}}
+<div class="container">
+  <header class = "jumbotron">
+    <h1>Super Rentals</h1>
+  </header>
+    {{outlet}}
+  <hr>
+  <footer>
+    {{#link-to 'about'}}About{{/link-to}}
+    {{#link-to 'contact'}}Click here to contact Raheem{{/link-to}}
+    {{#link-to 'index'}}Click her to go Home{{/link-to}}
+  </footer>
+</div>
