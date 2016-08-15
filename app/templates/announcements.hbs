@@ -1,5 +1,7 @@
 <h2>Announcements</h2>
 
 <ul>
-  <li>Announcement One</li>
+  {{#each model as |announcement|}}
+    <li>{{announcement.title}} <br> {{announcement.description}}</li>
+  {{/each}}
 </ul>
