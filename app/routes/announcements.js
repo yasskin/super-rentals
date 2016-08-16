@@ -6,11 +6,11 @@ var announcements = [{
   description: "bullet holes in Stormzy's crib"
 }, {
   id: 2,
-  title: "Tonyzz eats Sammy's sandwich",
+  title: "TonyZZ eats Sammy's kebab-case",
   description: "too lurid to print"
 }, {
   id: 3,
-  title: "Shit gets wack @ Epicodus",
+  title: "Handlebar Mustache shit gets wack @ Epicodus",
   description: "Floor 8 hoop destroyed"
 }];
 
