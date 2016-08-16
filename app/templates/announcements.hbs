@@ -2,7 +2,6 @@
 
 <ul>
   {{#each model as |announcement|}}
-    <li><h2>{{announcement.title}}</h2></li>
-    <li><h3>{{announcement.description}}</h3></li>
+    {{announcement-tile announcement=announcement}}
   {{/each}}
 </ul>
