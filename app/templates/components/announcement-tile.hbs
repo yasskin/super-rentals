@@ -2,5 +2,6 @@
   <h2>{{announcement.title}} : </h2>
   <h3>{{announcement.description}}</h3>
   <br>
+  {{update-announcement announcement=announcement update="update"}}
   <button {{action 'delete' announcement}}>DELETE</button>
 </li>

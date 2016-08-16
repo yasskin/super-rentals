@@ -1,10 +1,11 @@
 <h2>Announcements</h2>
 
+We hope this news fills you with joy.
+
 <ul>
   {{#each model as |announcement|}}
-    {{announcement-tile announcement=announcement destroyAnnouncement="destroyAnnouncement"}}
+    {{announcement-tile announcement=announcement update="update" destroyAnnouncement="destroyAnnouncement"}}
   {{/each}}
 </ul>
-
 
 {{new-announcement save2="save3"}}
