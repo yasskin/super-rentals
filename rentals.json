@@ -23,5 +23,15 @@
    }, {
      "name": "Seattle",
      "country": "USA"
-   }]
+   }],
+  "announcements" : [{
+    "title": "Rapper ShadowDom in shootout with Stormzy",
+    "description": "bullet holes in Stormzy's crib"
+  }, {
+    "title": "TonyZZ eats Sammy's kebab-case",
+    "description": "too lurid to print"
+  }, {
+    "title": "Handlebar Mustache shit gets wack @ Epicodus",
+    "description": "Floor 8 bathroom hoop destroyed"
+  }]
 }
